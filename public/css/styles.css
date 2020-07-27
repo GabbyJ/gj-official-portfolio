@@ -767,7 +767,7 @@
     background-position: 0 -25px;
   }
   label.checkboxes {
-    background-image: url("../../images/checkbox.png");
+    background-image: url("./images/checkbox.png");
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

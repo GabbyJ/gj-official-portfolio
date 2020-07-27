@@ -4,7 +4,7 @@ function AboutBreak() {
     return(
         <div>
         <div>
-          <img className="techDesk" src="../../images/tech-desk.png" alt="" />
+          <img className="techDesk" src="./images/tech-desk.png" alt="" />
           <hr className="line" />
         </div>
         <hr className="line-bottom" />

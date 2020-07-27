@@ -4,7 +4,7 @@ import TypingEffect from "./Typing";
 function HomeSection(){
     return(
       <header className="header">
-        <img className="profilepic" src= "../../images/orange-Avatar3.svg" alt="Avatar of Gabrielle Jacobs" />
+        <img className="profilepic" src= "./images/orange-Avatar3.svg" alt="Avatar of Gabrielle Jacobs" />
         <TypingEffect/>
         <div className="socials">
           <a href="https://github.com/GabbyJ" target="_blank" rel="noreferrer noopener"><i className="fab fa-github" /></a>

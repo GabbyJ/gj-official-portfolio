@@ -9,7 +9,7 @@ function AboutSection(){
           my free time, I'm usually playing an instrument, watching movies,
           or traveling the world. Keep scrolling down to find out more about me!
         </p>
-        <a href="../../images/Gabrielle_Jacobs_Resume.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
+        <a href="./images/Gabrielle_Jacobs_Resume.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
         <a href="#portfolio"><button>View Portfolio</button></a>
       </section>
     );
