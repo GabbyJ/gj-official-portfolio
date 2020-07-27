@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This repo houses my official portfolio. Design wise, it's pretty done. Still working on the contact form and hire me functionalities.
+
+Created Using:
+<ul>
+  <li>React</li>
+  <li>npm</li>
+  <li>jQuery</li>
+  <li>Vanilla Javascript</li>
+  <li>CSS3</li>
+</ul>
+
 ## Available Scripts
 
 In the project directory, you can run:
