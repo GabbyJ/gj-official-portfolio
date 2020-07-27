@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 This repo houses my official portfolio. Design wise, it's pretty done. Still working on the contact form and hire me functionalities.
 
 Created Using:
@@ -10,6 +8,8 @@ Created Using:
   <li>Vanilla Javascript</li>
   <li>CSS3</li>
 </ul>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
