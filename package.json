@@ -2,7 +2,7 @@
   "name": "gj-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gmjacobsdev.com",
+  "homepage": "https://gabbyj.github.io/gj-official-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
