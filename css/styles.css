@@ -435,10 +435,17 @@
     padding: 0 25%;
     text-align: center;
   }
-  
+  .about h3{
+    text-align: left;
+    color: var(--secondary-alt);
+    margin-bottom: 2%;
+  }
   .summary {
     padding: 0 25% 5%;
-    text-align: center;
+  }
+  .summary p{
+    padding-bottom: 2%;
+    text-align: left;
     line-height: 3rem;
   }
   .about button {
@@ -558,15 +565,17 @@
 
   /* PORTFOLIO */
   .project{
-    border: 1px solid var(--white);
     border-radius: 10px;
     width: 300px;
     margin: 2% 5% 5%;
     display: inline-block;
     box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.8s ease;
   }
   .project:hover{
     box-shadow: 0 5px 16px 0 rgba(136, 136, 136, 0.24), 0 17px 50px 0 rgba(133, 133, 133, 0.19);
+    border: 1px solid var(--white);
+    transform: scale(1.05);
   }
   .img-container {
     position: relative;
@@ -767,7 +776,7 @@
     background-position: 0 -25px;
   }
   label.checkboxes {
-    background-image: url("../images/checkbox.png");
+    background-image: url("../../images/checkbox.png");
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -1149,4 +1158,10 @@
     .tick {
       font-size: 70%;
     }
+  }
+
+  /* FOOTER */
+  footer p{
+    width: 70%;
+    margin: 0 auto;
   }
