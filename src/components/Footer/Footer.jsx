@@ -12,7 +12,7 @@ function Footer() {
             <footer>
                 <section className="footer" data-aos="fade-up" data-aos-duration="700">
                     <div className="footer-contact">
-                        <img className="logo-footer" src="../../images/gj-logo-orange.png" alt="Logo saying 'GJ'" />
+                        <img className="logo-footer" src="./images/gj-logo-orange.png" alt="Logo saying 'GJ'" />
                         <p>Live like no one else, so you can live like no one else.</p>
                     </div>
                     <div className="footer-socials">

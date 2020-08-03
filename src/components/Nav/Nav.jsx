@@ -19,7 +19,7 @@ class Nav extends Component{
                     <span className="screen-reader-text">Menu</span>
                 </button>
                 <nav role="navigation" className="menu">
-                    <img className="logo" src="../../images/gj-logo-red-orange.png" alt="Logo saying 'GJ'" />
+                    <img className="logo" src="./images/gj-logo-red-orange.png" alt="Logo saying 'GJ'" />
                     <div className="overflow-container">
                         <ul className="menu-dropdown">
                         <li><a href="#home">Home</a><span className="icon"><i className="fas fa-home" data-aos="fade-right" data-aos-duration="700"/></span></li>
