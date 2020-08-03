@@ -1,3 +1,16 @@
+This repo houses my official portfolio. Design wise, it's pretty done. Still working on the contact form and hire me functionalities.
+
+Site can be seen <a href="https://gabbyj.github.io/gj-official-portfolio/" target="_blank">here</a>.
+
+Created Using:
+<ul>
+  <li>React</li>
+  <li>npm</li>
+  <li>jQuery</li>
+  <li>Vanilla Javascript</li>
+  <li>CSS3</li>
+</ul>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
