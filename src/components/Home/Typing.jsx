@@ -47,8 +47,8 @@ class TypingEffect extends Component {
     render() {
         return (
             <div className="typingEffect">
-                <h1 className="name"> Hey, I'm Gabrielle Jacobs</h1>
-                <p className="tagline"><span className="typed-text"/><span className="cursor">&nbsp;</span></p>
+                <h1 className="name" data-aos="fade-up" data-aos-duration="1000"> Hey, I'm Gabrielle Jacobs</h1>
+                <p className="tagline" data-aos="fade-up" data-aos-duration="1000"><span className="typed-text"/><span className="cursor">&nbsp;</span></p>
             </div>
         );
     }

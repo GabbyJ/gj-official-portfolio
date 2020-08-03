@@ -1,5 +1,6 @@
 import React from "react";
-import { DiJqueryLogo } from "react-icons/di";
+import { DiJqueryLogo, DiVisualstudio } from "react-icons/di";
+
 
 function SkillsTab() {
     return(
@@ -16,7 +17,7 @@ function SkillsTab() {
                 </tr>
                 <tr>
                     <td><span><i className="fab fa-js" /></span> Javascript</td>
-                    <td><span><DiJqueryLogo className="jqueryLogo"/></span> jQuery</td>
+                    <td><span><DiJqueryLogo className="DiLogo"/></span> jQuery</td>
                 </tr>
                 <tr>
                     <td><span><i className="fab fa-react" /></span> React</td>
@@ -29,6 +30,14 @@ function SkillsTab() {
                 <tr>
                     <td><span><i className="fab fa-github" /></span> Git/Github</td>
                     <td><span><i className="fab fa-adobe" /></span> Adobe Creative Suite</td>
+                </tr>
+                <tr>
+                    <td><span><i class="fas fa-terminal"></i></span> Command Line</td>
+                    <td><span><DiVisualstudio className="DiLogo"/></span> Visual Studio Code</td>
+                </tr>
+                <tr>
+                    <td><span><img src="./images/responsive.png" alt="phone, tablet, computer icon" className="DiLogo"/></span> Responsive Websites</td>
+                    <td><span><img src="./images/w3c.png" alt="W3C icon" className="DiLogo"/></span> Web Accessibility</td>
                 </tr>
                 </tbody>
             </table>

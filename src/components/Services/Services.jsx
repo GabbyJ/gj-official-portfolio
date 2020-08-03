@@ -35,18 +35,21 @@ function Card(props){
 
 function Services() {
     return(
-        <section className="service" id="services">
-            <h2>Services</h2>
-            <div className="services">
-                <div className="design section">
+        <section className="service" id="services"> 
+            <h2 data-aos="fade-up" data-aos-duration="700">Services</h2>
+            <div className="services" data-aos="fade-up" data-aos-duration="700">
+                <div className="design section" data-aos="fade-up" data-aos-duration="700">
                     {createCard(services[0])}
                 </div>
-                <div className="development section">
+                <div className="development section" data-aos="fade-up" data-aos-duration="700">
                     {createCard(services[1])}
                 </div>
-                <div className="photography section">
+                <div className="photography section" data-aos="fade-up" data-aos-duration="700">
                     {createCard(services[2])}
                 </div>
+                {/*<div className="marketing section">
+                    {createCard(services[3])}
+                </div>*/}
             </div>
         </section>
     );

@@ -16,7 +16,7 @@ class AboutTabs extends Component{
     render(){
         return(
         <section className="experience">
-            <div className="tab-nav-wrapper">
+            <div className="tab-nav-wrapper" data-aos="fade-up" data-aos-duration="700">
                 <ul>
                 {/* eslint-disable-next-line*/}
                 <li className="one"><a><h2>Skills</h2></a></li>
@@ -27,7 +27,7 @@ class AboutTabs extends Component{
                 <hr />
                 </ul>
             </div>
-            <div className="tab-content-wrapper">
+            <div className="tab-content-wrapper" data-aos="fade-up" data-aos-duration="700">
                 <SkillsTab />
                 <ExperienceTab />
                 <EducationTab />

@@ -5,7 +5,7 @@ import { portfolio } from "../../lists.js";
 
 function Card(props){
   return(
-    <div className="project" id={props.id}>
+    <div className="project" id={props.id} data-aos="fade-up" data-aos-duration="700">
         <div className="img-container">
             <img className="image" src={props.image} alt="project"/>
             <div className="img-overlay">
@@ -42,11 +42,11 @@ function createCard(oneProject){
 function Portfolio() {
     return(
         <section className="portfolio" id="portfolio">
-            <h2>Portfolio</h2>
-            <div id="projects">
+            <h2 data-aos="fade-up" data-aos-duration="700">Portfolio</h2>
+            <div id="projects" >
                 {portfolio.map(createCard)}
             </div>
-            <a href="https://github.com/GabbyJ" target="_blank" rel="noreferrer noopener"><button><i className="fab fa-github" /> See more on GitHub</button></a>
+            <a href="https://github.com/GabbyJ" target="_blank" rel="noreferrer noopener" data-aos="fade-up" data-aos-duration="700"><button><i className="fab fa-github" /> See more on GitHub</button></a>
             {/* Language icons
                 HTML - <i class="fab fa-html5"></i>
                 CSS3 - <i class="fab fa-css3-alt"></i>

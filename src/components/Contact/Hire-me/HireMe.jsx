@@ -3,6 +3,7 @@ import ServiceOptions from "./ServiceOptions/ServiceOptions";
 import PaymentOptions from "./Payment-options/PaymentOptions";
 import BudgetSlider from "./Sliders/Budget";
 import DeadlineSlider from "./Sliders/Deadline";
+import Included from "./Payment-options/WhatsIncluded";
 
 
 
@@ -19,6 +20,7 @@ function HireMe() {
                 {/* HIRE ME PRICING */}
                 <div className="pricing">
                     <PaymentOptions />
+                    <Included />
                     <ServiceOptions />
                     {/* HIRE ME BUDGET SLIDER */}
                     <BudgetSlider />

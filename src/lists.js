@@ -96,7 +96,7 @@ const services = [
         subtitle1: "Things I enjoy designing:",
         subDescription1: "UX, UI, Web, Mobile, Apps, Logos",
         subtitle2: "Design Tools:",
-        subDescription2: ["Figma", "Pen & Paper", "Sketch", "Webflow"]
+        subDescription2: ["Adobe XD", "Figma", "Adobe Illustrator", "Pen & Paper", "Photoshop", "Webflow"]
     },
     {
         id: 2,
@@ -104,9 +104,9 @@ const services = [
         service:"Web Development",
         description:"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
         subtitle1: "Languages I speak:",
-        subDescription1: "HTML, Bootstrap, CSS, Sass, React",
+        subDescription1: "HTML, Bootstrap, CSS, Sass, Javascript, React",
         subtitle2: "Dev Tools:",
-        subDescription2: ["Visual Studio Code", "Github", "Bootstrap", "Terminal", "Codepen"]
+        subDescription2: ["Visual Studio Code", "Git/Github", "Terminal", "Codepen", "Wordpress"]
     },
     {
         id: 3,
@@ -117,7 +117,17 @@ const services = [
         subDescription1: "Traveling, Events, Ceremonies",
         subtitle2: "Photography Tools:",
         subDescription2: ["Photoshop", "Lightroom", "HD Camera"]
-    }
+    }/*,
+    {
+        id: 4,
+        image: "fas fa-camera",
+        service:"Marketing",
+        description:"I enjoy capturing moments that can be kept for a lifetime.",
+        subtitle1: "How I spread the word:",
+        subDescription1: "Accessibility, Analytics, Search Engine Optimization, Email Blasts",
+        subtitle2: "Marketing Tools:",
+        subDescription2: ["W3C", "Google Analytics", "Yoast SEO", "Mailchimp", " ", " "]
+    }*/
 ];
 
 const portfolio = [
@@ -187,33 +197,36 @@ const pricing = [
     {
         id: 1,
         package: "Basic",
-        price: "$150",
-        description: "3 page site",
-        items: ["Website Audit", "Design", "Development"],
+        disclaimer: "Starting at",
+        price: "$2300",
+        description: "Up to 5 pages",
+        items: ["2 Mockups", "Web Audit", "Design", "Development", "10 Stock Images", "1hr Maintenance Tutorial"],
         link: ""
     },
     {
         id: 2,
         package: "Standard",
-        price: "$250",
-        description: "10 page site",
-        items: ["Basic Services", "+ Backups", "+ Analytics", "+ Search Engine Optimization", "+ Content Management"],
+        disclaimer: "Starting at",
+        price: "$2600",
+        description: "Up to 10 pages",
+        items: ["Basic Services", "+ Backups", "+ Analytics", "+ Search Engine Optimization", "+ 20 Stock Images", "+ 2 hr Maintenance Tutorial"],
         link: ""
     },
     {
         id: 3,
         package: "Premium",
-        price: "$500",
-        description: "30 page site",
-        items: ["Standard Services", "+ Maintenance Agreement", "+ eCommerce", "+ Email Setup", "+ Hosting"],
+        disclaimer: "Starting at",
+        price: "$3300",
+        description: "Up to 20 pages",
+        items: ["Standard Services", "+ Custom Emails", "+ 30 Stock Images", "+ 1 Hour Support", "+ 3 hr Maintenance Tutorial"],
         link: ""
     },
     {
         id: 4,
         package: "Custom",
         price: "Get Quote",
-        description: "Pick and Choose from...",
-        items: ["Premium Plan Services", "Logo", "Photography"],
+        description: "Pick and Choose from all services",
+        items: [""],
         link: ""
     },
 ]

@@ -25,7 +25,7 @@ $(document).ready(function() {
       <div className="pricing-tables">
           <ul className="pricing-table">
               <li className="title">{props.package}</li>
-              <li className="price">{props.price}</li>
+              <li className="price"><span className="disclaimer">{props.disclaimer}</span><br></br>{props.price}</li>
               <li className="description">{props.description}</li>
               {props.items}
               <li className="cta-button"><a href={props.link} className="button">Select</a></li>
@@ -39,6 +39,7 @@ $(document).ready(function() {
     return <Card 
       key = {onePrice.id}
       package = {onePrice.package}
+      disclaimer = {onePrice.disclaimer}
       price = {onePrice.price}
       description = {onePrice.description}
       items = {eachItem}
