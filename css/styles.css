@@ -792,7 +792,7 @@
     background-position: 0 -25px;
   }
   label.checkboxes {
-    background-image: url("../images/checkbox.png");
+    background-image: url("../../images/checkbox.png");
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -1163,8 +1163,19 @@
     }
     header h1 {
       line-height: 5rem;
-      /* BORDER */
     }
+      /* Typing Effect */
+    .typingEffect h1, .typingEffect p {
+      font-size: 3.5rem;
+      padding: 0.5rem 0;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      overflow: hidden;
+    }
+    
+      /* BORDER */
+    
     .techDesk {
       width: 90%;
       padding: 0 0 0 1rem;
@@ -1249,7 +1260,6 @@
     .tick {
       font-size: 70%;
     }
-<<<<<<< HEAD
     .footnotes tr{
       margin-bottom: -1rem;
     }
@@ -1266,6 +1276,3 @@
     margin: 0 auto;
   }
 }
-=======
-  }
->>>>>>> refs/remotes/origin/master
