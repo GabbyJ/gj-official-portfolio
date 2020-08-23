@@ -9,7 +9,7 @@ export default function MessageMe() {
     <h2 data-aos="fade-up" data-aos-duration="700">Message Me</h2>
     <div className="form" data-aos="fade-up" data-aos-duration="700">
     <form id="contact-form" method="POST" action="https://formsubmit.co/fddbb2df13653f25023d42513795606c" className="login-form">
-    <input type="hidden" name="_next" value="http://localhost:3000/thanks.html" />
+    <input type="hidden" name="_next" value="https://gabbyj.github.io/gj-official-portfolio/thanks.html" />
     <input type="hidden" name="_subject" value="Enquiry from gmjacobsdev.com" />
   	<div className="form-group" >
       	<label>Name</label>
