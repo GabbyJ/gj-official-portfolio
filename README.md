@@ -1,4 +1,4 @@
-This repo houses my official portfolio. Design wise, it's pretty done. Still working on the contact form and hire me functionalities.
+This repo houses my official portfolio. Design wise, it's pretty done. Some functionalites took me awhile, but I eventually figured them out. Will be moved to a new domain soon.
 
 Site can be seen <a href="https://gabbyj.github.io/gj-official-portfolio/" target="_blank">here</a>.
 
