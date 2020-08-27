@@ -16,6 +16,7 @@
     background: var(--black);
     color: var(--white);
   }
+  
   html {
     font-size: 62.5%;
   }
@@ -30,7 +31,7 @@
     margin: 0 auto;
     position: relative;
     text-align: center;
-    padding: 5rem 0 5rem 3rem;
+    padding: 5rem 0 5rem 5rem;
   } 
   h1, h2, h3, h4{
     font-family: 'Nunito', Sans-Serif;
@@ -382,6 +383,9 @@
     font-size: 5rem;
     width: 10rem;
   }
+  header i:hover{
+    color: var(--secondary);
+  }
   header h1 {
     line-height: 3rem;
   }
@@ -582,8 +586,8 @@
   /* PORTFOLIO */
   .project{
     border-radius: 10px;
-    width: 300px;
-    margin: 2% 5% 5%;
+    width: 500px; /*width: 300px for simple squares*/
+    margin: 2% 5% 5% 3%;
     display: inline-block;
     box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     transition: 0.8s ease;
@@ -625,11 +629,12 @@
   .img-container:hover .img-overlay {
     opacity: 1;
   }
+  
   .hover-text {
     color: var(--white);
     font-size: 1.8rem;
-    width: 250px;
-    margin-bottom: 1rem;
+    width: 450px; /*250px for simple squares*/
+    margin-bottom: 5rem; /*1rem for simple squares*/
   }
   .tech{
     font-size: 1.6rem;
@@ -650,7 +655,7 @@
   }
 
   .project:hover .title-panel{
-    height: 80px;
+    height: 90px; /*80px for simple squares*/
   }
 
   .link-panel{
@@ -1108,14 +1113,49 @@
     height: 50px;
   }
   hr {
-    margin: 3rem auto;
+    margin: 3rem auto 2rem;
     border-color: var(--white);
     border-radius: 50%;
     width: 50%;
   }
+  .made {
+    font-size:1.5rem;
+  }
+  .made i:hover{
+    color:var(--secondary-alt);
+  }
+  .made .fa-heart{
+    font-size:1.5rem;
+    width: 15px;
+  }
+  .made .fa-react{
+    font-size:1.8rem;
+    width: 20px;
+  }
   .copyright {
     font-size: 1.5rem;
   }
+  /****************** 1275PX OR LESS CSS ****************/
+  @media only screen and (max-width: 1275px) {
+  /* PORTFOLIO (none needed for simple squares)*/
+  .project{
+    max-width: 400px;
+  }
+  .image{
+    height: 100%;
+  }
+  .hover-text{
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .project:hover .image{
+    height: 160px;
+  }
+  .project:hover .title-panel{
+    height: 85px;
+  }
+}
   /****************** 750PX OR LESS CSS ****************/
   @media only screen and (max-width: 750px) {
     /* FONT SIZES */
@@ -1128,6 +1168,7 @@
     h4{
       font-size: 2rem;
     }
+    
     /* SERVICES */
     .services .section{
       display: block;
@@ -1199,7 +1240,7 @@
       width: 100%;
       border: 5px solid var(--white);
       margin-bottom: 10rem;
-      margin-top: -6.5%;
+      margin-top: -5.5%;
       transform: rotate(-5deg) translateY(15px);
     }
     .line-top-footer {
@@ -1210,7 +1251,7 @@
       transform: rotate(180deg);
       width: 95%;
       margin-bottom: -100px;
-      margin-left: 10%;
+      margin-left: 5%;
       /* ABOUT */
     }
     .summary {
@@ -1234,7 +1275,16 @@
       display: block;
       
     }
-
+    /* PORTFOLIO (none needed for simple squares) */
+    .project:hover .image{
+      height: 200px;
+    }
+    .image{
+      height: 100%;
+    }
+    .hover-text{
+      width: 350px;
+    }
     /* CONTACT */
     .form {
       padding: 15px;
