@@ -1276,6 +1276,9 @@
       
     }
     /* PORTFOLIO (none needed for simple squares) */
+    .project{
+      width: 90%;
+    }
     .project:hover .image{
       height: 200px;
     }
