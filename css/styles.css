@@ -16,11 +16,12 @@
     background: var(--black);
     color: var(--white);
   }
+  
   html {
     font-size: 62.5%;
   }
   body {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', Sans-Serif;
     font-size: 1.8rem;
     background: linear-gradient(180deg, #050404 33%, #872214 66%, #de7f3f 100%);
   }
@@ -30,8 +31,23 @@
     margin: 0 auto;
     position: relative;
     text-align: center;
-    padding: 5rem 0 5rem 3rem;
+    padding: 5rem 0 5rem 5rem;
   } 
+  h1, h2, h3, h4{
+    font-family: 'Nunito', Sans-Serif;
+  }
+  h1{
+    font-size: 4.5rem;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  h4{
+    font-size: 2rem;
+  }
   a, a:link, a:visited {
     text-decoration: none;
     color: var(--black);
@@ -250,7 +266,7 @@
     /* hamburger icon */
     color: var(--white);
     line-height: 32px;
-    font-size: 16px;
+    font-size: 2rem;
   }
   .openNav .hamburger:before {
     content: "\2715";
@@ -258,7 +274,7 @@
     /* close icon */
     color: var(--white);
     line-height: 32px;
-    font-size: 16px;
+    font-size: 2rem;
   }
   .hamburger:hover:before {
     color: var(--secondary-alt);
@@ -275,6 +291,7 @@
     width: 24px;
     height: 24px;
     color: var(--primary);
+    font-size: 2rem;
   }
   .menu, .menu a, .menu a:visited {
     color: var(--white);
@@ -285,7 +302,7 @@
     display: block;
     white-space: nowrap;
     padding: 1em;
-    font-size: 14px;
+    font-size: 2rem;
   }
   .menu a:hover {
     color: var(--secondary-alt);
@@ -366,12 +383,15 @@
     font-size: 5rem;
     width: 10rem;
   }
+  header i:hover{
+    color: var(--secondary);
+  }
   header h1 {
     line-height: 3rem;
   }
   /* Typing Effect */
   .typingEffect h1, .typingEffect p {
-    font-size: 3rem;
+    font-size: 4.5rem;
     padding: 0.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -430,15 +450,22 @@
   }
   /* ABOUT */
   .about h2 {
-    color: var(--secondary);
+    color: var(--secondary-alt);
     margin: 10rem 2rem 5rem;
     padding: 0 25%;
     text-align: center;
   }
-  
+  .about h3{
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 2%;
+  }
   .summary {
     padding: 0 25% 5%;
-    text-align: center;
+  }
+  .summary p{
+    padding-bottom: 2%;
+    text-align: left;
     line-height: 3rem;
   }
   .about button {
@@ -475,11 +502,11 @@
     padding: 0.75rem 0;
     margin: 0;
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--secondary-alt);
   }
   .two:hover ~ hr {
     margin-left: 40%;
-    background: var(--secondary-alt);
+    background: var(--secondary);
   }
 
   .three:hover ~ hr {
@@ -504,7 +531,7 @@
   /* Skills Tab */
   .tab1-c td {
     text-align: left;
-    padding: 0 12%;
+    padding: 0 0 0 12%;
     font-size: 2rem;
   }
   .tab-content-wrapper .tab1-c {
@@ -515,7 +542,7 @@
     border-radius: 1rem;
     width: 90%;
   }
-  .tab1-c .fab, .jqueryLogo {
+  .tab1-c .fab, .DiLogo {
     font-size: 2.5rem;
     width: 2.5rem;
     margin-right: 1rem;
@@ -532,11 +559,11 @@
   }
   .services .section{
     display: inline-block;
-    width: 33%;
+    width: 33%; /*24% with Marketing*/
     vertical-align: top;
     padding: 3rem;
   }
-  .design, .development{
+  .design, .development/*, .photography*/{
     border-right: 2px solid var(--primary);
   }
   .section i{
@@ -558,15 +585,17 @@
 
   /* PORTFOLIO */
   .project{
-    border: 1px solid var(--white);
     border-radius: 10px;
-    width: 300px;
-    margin: 2% 5% 5%;
+    width: 500px; /*width: 300px for simple squares*/
+    margin: 2% 5% 5% 3%;
     display: inline-block;
     box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.8s ease;
   }
   .project:hover{
     box-shadow: 0 5px 16px 0 rgba(136, 136, 136, 0.24), 0 17px 50px 0 rgba(133, 133, 133, 0.19);
+    border: 1px solid var(--white);
+    transform: scale(1.05);
   }
   .img-container {
     position: relative;
@@ -600,11 +629,12 @@
   .img-container:hover .img-overlay {
     opacity: 1;
   }
+  
   .hover-text {
     color: var(--white);
     font-size: 1.8rem;
-    width: 250px;
-    margin-bottom: 1rem;
+    width: 450px; /*250px for simple squares*/
+    margin-bottom: 5rem; /*1rem for simple squares*/
   }
   .tech{
     font-size: 1.6rem;
@@ -625,7 +655,7 @@
   }
 
   .project:hover .title-panel{
-    height: 80px;
+    height: 90px; /*80px for simple squares*/
   }
 
   .link-panel{
@@ -680,7 +710,7 @@
     background: var(--white);
     border-radius: 3rem;
     width: 100%;
-    margin: 0 auto 100px;
+    margin: 0 auto -7rem;
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -767,7 +797,7 @@
     background-position: 0 -25px;
   }
   label.checkboxes {
-    background-image: url("../images/checkbox.png");
+    background-image: url("../../images/checkbox.png");
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -801,6 +831,9 @@
     background-color: var(--black);
     color: var(--white);
     font-size: 1.6rem;
+  }
+  .pricing-table .disclaimer{
+    font-size: 1rem;
   }
   .pricing-table .price{
     display: block;
@@ -856,8 +889,65 @@
     background-color: var(--black);
     color: var(--white);
   }
+
+  .footnotes a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .footnotes p {
+    font-size: 1.1em;
+    margin: 1em 0;
+  }
+  .footnotes .description {
+    margin: 1em auto 2.25em;
+  }
+  .footnotes {
+    width: 100%;
+    min-width: 300px;
+    margin: 1.5em auto;
+    color: var(--primary);
+  }
+
+  .footnotes ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footnotes ul .inner {
+    /*padding-left: 1em;*/
+    overflow: hidden;
+    display: none;
+  }
+  .footnotes ul .inner.show {
+    /*margin: 2rem 5rem;*/
+  }
+  .footnotes .toggle {
+    margin: 0.1rem 0;
+  }
+  .footnotes .inner li{
+    margin: 0 5rem;
+  }
+  .footnotes ul li a.toggle {
+    width: 100%;
+    display: block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: 0.3s ease;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .footnotes ul li a.toggle:hover {
+    opacity: 0.3;;
+  }
+  
+  .footnotes td{
+    text-align: center;
+    width: 10% !important;
+  }
   
   
+
 
 .pop-out {
   transform: scale(1.05);
@@ -923,7 +1013,7 @@
     margin-bottom: 20px;
   }
   .amount {
-    margin: 5% 40%;
+    margin: 5% auto;
   }
   .tick p {
     line-height: 20px;
@@ -949,9 +1039,9 @@
   }
   .experience-2 h2 {
     display: inline-block;
-    width: 40%;
+    /*width: 40%;*/ /* RE-ADD ONCE HIRE ME IS ADDED */
     padding: 0.75rem 0;
-    margin: 0;
+    /*margin: 0;*/ /* RE-ADD ONCE HIRE ME IS ADDED */
     text-decoration: none;
     color: var(--black);
   }
@@ -961,6 +1051,7 @@
   #what-to-do {
     margin-bottom: 5%;
     color: var(--white);
+    width: 100%;
   }
   .two-2:hover ~ hr {
     margin-left: 60%;
@@ -1022,17 +1113,63 @@
     height: 50px;
   }
   hr {
-    margin: 3rem auto;
+    margin: 3rem auto 2rem;
     border-color: var(--white);
     border-radius: 50%;
     width: 50%;
   }
+  .made {
+    font-size:1.5rem;
+  }
+  .made i:hover{
+    color:var(--secondary-alt);
+  }
+  .made .fa-heart{
+    font-size:1.5rem;
+    width: 15px;
+  }
+  .made .fa-react{
+    font-size:1.8rem;
+    width: 20px;
+  }
   .copyright {
     font-size: 1.5rem;
   }
+  /****************** 1275PX OR LESS CSS ****************/
+  @media only screen and (max-width: 1275px) {
+  /* PORTFOLIO (none needed for simple squares)*/
+  .project{
+    max-width: 400px;
+  }
+  .image{
+    height: 100%;
+  }
+  .hover-text{
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .project:hover .image{
+    height: 160px;
+  }
+  .project:hover .title-panel{
+    height: 85px;
+  }
+}
   /****************** 750PX OR LESS CSS ****************/
   @media only screen and (max-width: 750px) {
-    /*SERVICES */
+    /* FONT SIZES */
+    h2{
+      font-size: 3rem;
+    }
+    h3{
+      font-size: 2rem;
+    }
+    h4{
+      font-size: 2rem;
+    }
+    
+    /* SERVICES */
     .services .section{
       display: block;
       width: 100%;
@@ -1067,8 +1204,19 @@
     }
     header h1 {
       line-height: 5rem;
-      /* BORDER */
     }
+      /* Typing Effect */
+    .typingEffect h1, .typingEffect p {
+      font-size: 3.5rem;
+      padding: 0.5rem 0;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      overflow: hidden;
+    }
+    
+      /* BORDER */
+    
     .techDesk {
       width: 90%;
       padding: 0 0 0 1rem;
@@ -1092,7 +1240,7 @@
       width: 100%;
       border: 5px solid var(--white);
       margin-bottom: 10rem;
-      margin-top: -6.5%;
+      margin-top: -5.5%;
       transform: rotate(-5deg) translateY(15px);
     }
     .line-top-footer {
@@ -1103,7 +1251,7 @@
       transform: rotate(180deg);
       width: 95%;
       margin-bottom: -100px;
-      margin-left: 10%;
+      margin-left: 5%;
       /* ABOUT */
     }
     .summary {
@@ -1118,7 +1266,7 @@
       text-align: center;
       padding: 0 3%;
     }
-    .tab1-c .fab {
+    .tab1-c .fab, .DiLogo {
       font-size: 4rem;
       width: 4rem;
       text-align: center;
@@ -1127,7 +1275,16 @@
       display: block;
       
     }
-
+    /* PORTFOLIO (none needed for simple squares) */
+    .project:hover .image{
+      height: 200px;
+    }
+    .image{
+      height: 100%;
+    }
+    .hover-text{
+      width: 350px;
+    }
     /* CONTACT */
     .form {
       padding: 15px;
@@ -1146,7 +1303,26 @@
       display: block;
       width: 90%;
     }
+    .pricing h2{
+      width: auto;
+      font-size: 2.5rem;
+    }
     .tick {
       font-size: 70%;
     }
+    .footnotes tr{
+      margin-bottom: -1rem;
+    }
+    .footnotes td{
+      margin: 1rem 0;
+    }
+    .footnotes ul li a.toggle{
+      text-align: center;
+    }
+
+  /* FOOTER */
+  footer p{
+    width: 60%;
+    margin: 0 auto;
   }
+}

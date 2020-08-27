@@ -7,7 +7,7 @@ const jobs = [
         description: [
             "Fixed bugs and added website features to production 80% quicker than average by streamlining the ticketing process",
             "Improved the design and function of custom pages by adding CSS/ JS customizations",
-            "Achieved a 1-on-1 line of communication for Wordpress clients to provide assistance and maintenance 50% faster",
+            "Achieved a 1-on-1 line of communication for all 6 Wordpress clients to provide assistance and maintenance 50% faster",
             "Created custom templates from stage to production 60% quicker by both streamlining the ticketing process and providing customization knowledge others lack"
         ],
         keywords: ["HTML", "CSS", "Debugging", "Design", "Team\xa0Management", "Wordpress", "Custom\xa0Email\xa0Templates", "Problem\xa0Solving"]
@@ -57,7 +57,7 @@ const education = [
         date: "6/2019 – In Progress...",
         degree: "MERN Fullstack Certificate",
         school: "Udemy",
-        description: "Focused on React, Node, Express, and MongoDB.",
+        description: "Self pace course focused on React, Node, Express, and MongoDB.",
         keywords: ["HTML", "CSS", "Bootstrap ", "Javascript (ES6)", "jQuery", "Node", "Express", "APIs", "EJS", "SQL", "MongoDB", "Mongoose", "Authentication/Security"],
         
     },
@@ -66,8 +66,8 @@ const education = [
         date: "8/2012 - 1/2016",
         degree: "B.S. Graphic Communications and Multimedia",
         school: "California University of Pennsylvania",
-        description: "Focused on Adobe Creative Suite for web, photography, video, layout, and image manipulation. Learned printing techniques for various mediums.",
-        keywords: ["HTML", "CSS", "Photoshop", "Dreamweaver", "Indesign", "Illustrator", "Adobe\xa0Premiere", "Layout", "Graphic\xa0Design", "Screen\xa0Printing", "Lithography", "Flexography"]
+        description: "Focused on Adobe Creative Suite for web, photography, video, design layout, and image manipulation. Learned printing techniques for various mediums.",
+        keywords: ["HTML", "CSS", "Photoshop", "Dreamweaver", "Indesign", "Illustrator", "Adobe\xa0Premiere", "Design\xa0Layout", "Graphic\xa0Design", "Screen\xa0Printing", "Lithography", "Flexography"]
     },
     {
         id: 3,
@@ -133,63 +133,69 @@ const services = [
 const portfolio = [
     {
         id: 1,
-        image: "https://i.ibb.co/GdGbqrm/zora.jpg",
-        title: "Tribute Page",
-        description: "Tribute page for a writer I admire named Zora Neale Hurston. Her most famous work is Their Eyes Were Watching God, which was also a movie starring Halle Berry.",
-        tech: ["HTML", "CSS"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        image: "./images/portfolio-images/blackjack-mockup.jpg",
+        // "https://i.ibb.co/GdGbqrm/zora.jpg"
+        title: "Blackjack",
+        description: "You against the dealer. Get as close to 21 as you can.",
+        tech: ["HTML", "CSS", "Flexbox", "Javascript"],
+        github: "https://github.com/GabbyJ/Blackjack",
+        codepen: "",
+        link: "https://gabbyj.github.io/Blackjack/"
     },
     {
         id: 2,
-        image: "https://i.ibb.co/j6TQw5f/office.jpg",
+        image: "./images/portfolio-images/office-mockup.jpg",
+        // https://i.ibb.co/j6TQw5f/office.jpg
         title: "Random Quote Generator",
-        description: "One of my first Javascript projects was this random quote generator. I created it using characters from The Office and their famous quotes.",
-        tech: ["HTML", "CSS", "Vanilla Javascript"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        description: "Random quote generator created using characters from The Office and their famous quotes.",
+        tech: ["HTML", "CSS", "Javascript"],
+        github: "https://github.com/GabbyJ/Office-Quote-Generator",
+        codepen: "",
+        link: "http://htmlpreview.github.io/?https://github.com/GabbyJ/Office-Quote-Generator/blob/master/index.html"
     },
     {
         id: 3,
-        image: "https://i.ibb.co/W3v7t0D/hangman.jpg",
+        image: "./images/portfolio-images/hangman-mockup.jpg",
+        // https://i.ibb.co/W3v7t0D/hangman.jpg
         title: "Hangman",
-        description: "Project 3",
+        description: "Name your hangman and try keeping them alive by guessing the word.",
         tech: ["Python"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        github: "https://github.com/GabbyJ/Python",
+        codepen: "",
+        link: "https://trinket.io/python/1dbf3ceef6?outputOnly=true"
     },
     {
         id: 4,
-        image: "https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg",
-        title: "E-Card",
-        description: "Project 4",
-        tech: ["HTML", "CSS", "Javascript"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        image: "./images/portfolio-images/simon-mockup.jpg",
+        // https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg
+        title: "Simon Memory Game",
+        description: "How good is your memeory? Try to beat Simon by remembering the order of the colors.",
+        tech: ["HTML", "CSS", "Jquery"],
+        github: "https://github.com/GabbyJ/Simon-Game",
+        codepen: "",
+        link: "https://gabbyj.github.io/Simon-Game/"
     },
     {
         id: 5,
-        image: "https://i.ibb.co/PZNRRGd/saxes.jpg",
-        title: "Product Page",
-        description: "Project 5",
-        tech: ["HTML", "CSS"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        image: "./images/portfolio-images/nextchapter-mockup.jpg",
+        // https://i.ibb.co/PZNRRGd/saxes.jpg
+        title: "Travel Website",
+        description: "Search by destinations or activites to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
+        tech: ["HTML", "CSS", "Wordpress"],
+        github: "https://github.com/GabbyJ/nextchaptertravel",
+        codepen: "",
+        link: "https://nextchaptertravel.com"
     },
     {
         id: 6,
-        image: "https://i.ibb.co/sHbCGRX/tindog.jpg",
-        title: "Landing Page",
-        description: "Project 6",
+        image: "./images/portfolio-images/tindog-mockup.jpg",
+        // https://i.ibb.co/sHbCGRX/tindog.jpg
+        title: "App Landing Page",
+        description: "Is your dog lonely? Help them find a friend with TinDog.",
         tech: ["HTML", "CSS", "Bootstrap"],
-        github: "http://www.github.com",
-        codepen: "https://www.codepen.io",
-        link: "http://www.google.com"
+        github: "https://github.com/GabbyJ/TinDog",
+        codepen: "",
+        link: "https://gabbyj.github.io/TinDog/"
     },
 ];
 

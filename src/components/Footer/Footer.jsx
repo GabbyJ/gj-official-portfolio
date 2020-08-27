@@ -12,7 +12,7 @@ function Footer() {
             <footer>
                 <section className="footer" data-aos="fade-up" data-aos-duration="700">
                     <div className="footer-contact">
-                        <img className="logo-footer" src="./images/gj-logo-orange.png" alt="Logo saying 'GJ'" />
+                        <img className="logo-footer" src="../../images/gj-logo-orange.png" alt="Logo saying 'GJ' in curly brackets" />
                         <p>Live like no one else, so you can live like no one else.</p>
                     </div>
                     <div className="footer-socials">
@@ -22,6 +22,7 @@ function Footer() {
                         <a href="mailto:GabbyJ424@gmail.com" target="_blank" rel="noreferrer noopener"><i className="fas fa-envelope" /></a>
                     </div>
                     <hr />
+                    <p className="made">Made with <i className="fas fa-heart"></i> using&nbsp;<i className="fab fa-react"></i></p>
                     <p className="copyright">© 2020 Gabrielle Jacobs</p>
                 </section>
             </footer>

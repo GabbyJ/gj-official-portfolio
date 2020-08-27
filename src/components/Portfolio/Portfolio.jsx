@@ -16,13 +16,16 @@ function Card(props){
         <p className="title-panel">{props.title}
             <span className="link-panel">
                 <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"/></a>
-                <a href={props.codepen} target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"/></a>
+                {/* <a href={props.codepen} target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"/></a> */}
                 <a href={props.link} target="_blank" rel="noopener noreferrer"><i className="fas fa-link"/></a>
             </span>
         </p>
     </div> 
   );
 }
+
+
+
 
 
 function createCard(oneProject){
@@ -34,10 +37,12 @@ function createCard(oneProject){
     description = {oneProject.description}
     tech = {eachTech}
     github = {oneProject.github}
-    codepen = {oneProject.codepen}
+    // codepen = {oneProject.codepen}
     link = {oneProject.link}
   />
+  
 }
+
 
 function Portfolio() {
     return(

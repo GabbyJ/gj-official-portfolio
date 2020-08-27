@@ -16,8 +16,8 @@ function AboutSection(){
           </p>
         </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700">
-          <a href="./images/Gabrielle_Jacobs_Resume.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
+        <div >
+          <a href="../../images/Gabrielle_Jacobs_Resume.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
           <a href="#portfolio"><button>View Portfolio</button></a>
         </div>
       </section>

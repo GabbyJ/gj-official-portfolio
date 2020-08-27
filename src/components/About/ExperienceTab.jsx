@@ -30,7 +30,7 @@ function Card(props){
 
 function createCard(oneJob){
   var spacedKeyword = oneJob.keywords.map(x => <span><span className="bubble">{x}</span>{" "}</span> );
-  var eachDescription = oneJob.description.map(x => <p>~ {x}</p>)
+  var eachDescription = oneJob.description.map(x => <span>~ {x}</span>)
   return <Card 
     key = {oneJob.id}
     position = {oneJob.position}

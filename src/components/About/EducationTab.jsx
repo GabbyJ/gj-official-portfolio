@@ -81,15 +81,15 @@ function EducationTab() {
       {/* College */}
         {createCard(education[1])}
       </VerticalTimelineElement>
-      <VerticalTimelineElement
+      {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date={education[2].date}
         iconStyle={{ background: "#050404", color: "#FAEBD7" }}
         icon={<FaCalendarAlt />}
       >
         {/* High School */}
-        {createCard(education[2])}
-      </VerticalTimelineElement>
+        {/* {createCard(education[2])} */}
+      {/* </VerticalTimelineElement> */} 
 
       <p>&nbsp;</p>
     </VerticalTimeline>

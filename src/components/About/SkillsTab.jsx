@@ -32,7 +32,7 @@ function SkillsTab() {
                     <td><span><i className="fab fa-adobe" /></span> Adobe Creative Suite</td>
                 </tr>
                 <tr>
-                    <td><span><i class="fas fa-terminal"></i></span> Command Line</td>
+                    <td><span><i className="fas fa-terminal"></i></span> Command Line</td>
                     <td><span><DiVisualstudio className="DiLogo"/></span> Visual Studio Code</td>
                 </tr>
                 <tr>

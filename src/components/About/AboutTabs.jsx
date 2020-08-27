@@ -15,7 +15,7 @@ class AboutTabs extends Component{
     
     render(){
         return(
-        <section className="experience">
+        <section className="experience" id="aboutTabs">
             <div className="tab-nav-wrapper" data-aos="fade-up" data-aos-duration="700">
                 <ul>
                 {/* eslint-disable-next-line*/}
