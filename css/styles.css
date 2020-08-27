@@ -1329,3 +1329,11 @@
     margin: 0 auto;
   }
 }
+
+/****************** 450PX OR LESS CSS ****************/
+@media only screen and (max-width: 450px) {
+  /* PORTFOLIO (none needed for simple squares) */
+  .hover-text{
+    width: 275px;
+  }
+}
