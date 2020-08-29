@@ -533,7 +533,7 @@
   .bubble{
     margin-right: 0.5%;
   }
-  /* Skills Tab */
+    /* Skills Tab */
   .tab1-c td {
     text-align: left;
     padding: 0 0 0 12%;
@@ -551,6 +551,10 @@
     font-size: 2.5rem;
     width: 2.5rem;
     margin-right: 1rem;
+  }
+    /* Education/Experience Tabs */
+  .vertical-timeline:before{
+    border-radius: 50%;
   }
   /* SERVICES */
   .services{
