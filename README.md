@@ -1,6 +1,6 @@
 This repo houses my official portfolio. Some functionalites took me awhile, but I eventually figured them out. Will be moved to a new domain soon.
 
-Site can be seen <a href="https://gabbyj.github.io/gj-official-portfolio/" target="_blank">here</a>.
+Site can be seen <a href="https://www.gmjacobsdev.com" target="_blank">here</a>.
 
 <strong>Lighthouse Audit: 92.25%</strong>
 <ul>
